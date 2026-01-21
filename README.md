@@ -37,8 +37,8 @@ V1.0 [opentracker](https://erdgeist.org/arts/software/opentracker/opentracker-1.
 ## Build instructions
 Until opentracker is declared official release ready, the way to install it is:
 1. sudo apt update && sudo apt upgrade -y
-2. sudo apt install make git build-essential zlib1g-dev gcc cvs curl -y
-3. curl -L http://www.fefe.de/libowfat/libowfat-0.34.tar.xz -o libowfat.tar.xz && tar -xf libowfat.tar.xz && cd libowfat && make
+2. sudo apt install make git build-essential zlib1g-dev gcc cvs wget -y
+3. wget https://github.com/bringlive/OpenTracker/releases/download/Data/libowfat.tar.gz && tar -zxvf libowfat.tar.gz && cd libowfat && make
 4. cd ..
 5. git clone git://erdgeist.org/opentracker && cd opentracker && make
    - That should leave you with an exectuable called opentracker and one debug version opentracker.debug
