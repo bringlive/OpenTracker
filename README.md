@@ -122,6 +122,9 @@ First move the app to the opt directory:
         - sudo nano /opt/opentracker/opentracker.conf
       - A service restart may be required after changes. To stop the service, you can write:
         - sudo systemctl stop opentracker.service
+
+9. Now you can use it for public or private tracker
+   - Ex: http://server_ip:6969/announce
        
 
 ## Invocation
