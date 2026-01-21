@@ -54,4 +54,12 @@ Until opentracker is declared official release ready, the way to install it is:
      - Some experimental or older, deprecated features can be enabled by the -DWANT_LOG_NETWORKS, -DWANT_SYNC_SCRAPE or -DWANT_IP_FROM_PROXY switch.
      - Currently there is some packages for some linux distributions and OpenBSD around, but some of them patch Makefile and default config to make opentracker closed by default. I explicitly don't endorse those packages and will not give support for problems stemming from these missconfigurations.
 7. Then test your build with: ./opentracker &
+    <img width="729" height="129" alt="Screenshot at 2026-01-21 09-27-09" src="https://github.com/user-attachments/assets/65a6ab17-bdcc-4c6a-8d1f-9a41bb9eaddd" />
     
+Opentracker uses port 6969 by default. You can access it in any web browser as follows:
+- For example: http://server_ip:6969/stats
+     ![opentracker-debian-1-e1681734914369-768x209](https://github.com/user-attachments/assets/9eed2734-7f27-4c25-b45f-c7e9e381d471)
+  
+  To stop OpenTracker, you must kill the process id it shows at startup:
+     - kill -9 2465
+
