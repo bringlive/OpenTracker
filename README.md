@@ -75,7 +75,7 @@ First move the app to the opt directory:
      - Then create a service file:
      - sudo nano /etc/systemd/system/opentracker.service
      - Then copy the following content into it:
-          '''
+          
          > [Unit]
          
          > Description=opentracker Service
@@ -92,8 +92,11 @@ First move the app to the opt directory:
 
          > [Install]
          
-         > WantedBy=multi-user.target"
-         '''
+         > WantedBy=multi-user.target
+         
+         <img width="719" height="307" alt="Screenshot at 2026-01-21 12-14-13" src="https://github.com/user-attachments/assets/dae4aab3-74e4-4444-bd0f-1054ecb90e9c" />
+
+        
      - Then reload the service file:
          - sudo systemctl daemon-reload
      - Enable it:
